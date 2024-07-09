@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "test": "jest",
-    "start": "node --env-file=.env --loader ts-node/esm src/index.ts",
+    "start": "node --loader ts-node/esm src/index.ts",
+    "start:dev": "node --env-file=.env --loader ts-node/esm src/index.ts",
     "podman:build": "podman build -t telegram-to-github-bot .",
     "podman:run": "podman run --env-file .env telegram-to-github-bot"
   },
