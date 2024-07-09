@@ -113,7 +113,7 @@ export class TelegramBot {
         fileId = media.file_id;
       }
       const fileLink = await this.telegraf.telegram.getFileLink(fileId);
-      res += `\n\n[Attachment](${fileLink.href})`;
+      res += `[Attachment](${fileLink.href})`;
     }
 
     return res;
@@ -132,7 +132,8 @@ export class TelegramBot {
 
       >${description}
 
-      ${media}
+      >${media}
+
 
       ---
 
