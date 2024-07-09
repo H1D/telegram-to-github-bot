@@ -15,6 +15,10 @@ You'll need to create a Telegram bot and a GitHub token.
    - Go to ['@BotFather'](https//t.me/BotFather).
    - Create a new bot via `/newbot` command.
    - Follow the instructions to set up your bot. **BotFather** will give you a **token** when your bot is created.
+   - Turn off 'Privacy mode' (more info [here](https://core.telegram.org/bots/features#privacy-mode)):
+     - Use the `/mybots` command to list your bots.
+     - Select the bot you've just created.
+     - "Bot Settings" -> "Group Privacy" -> "Turn off"
 
 2. **Generate a GitHub Personal Access Token**
 
