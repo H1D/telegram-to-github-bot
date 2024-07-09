@@ -18,11 +18,14 @@ You'll need to create a Telegram bot and a GitHub token.
 
 2. **Generate a GitHub Personal Access Token**
 
-   - Go to your [GitHub settings](https://github.com/settings/tokens?type=beta).
-   - Click on **Generate new token**.
-   - Choose `Repository access` -> `Only select repositories`. Select **repo(s)** where you want to create issues.
-   - Add `Repository permissions` -> `Issues` -> `Read & Write`.
-   - Click on **Generate token** and save the token.
+   - If you own the repo:
+     - Go to your [GitHub settings](https://github.com/settings/tokens?type=beta).
+     - Click on **Generate new token**.
+     - Choose `Repository access` -> `Only select repositories`. Select **repo(s)** where you want to create issues.
+     - Add `Repository permissions` -> `Issues` -> `Read & Write`.
+     - Click on **Generate token** and save the token.
+   - If you are a collaborator on a repo you don't own:
+     - Create a 'classic' token with `repo` scope – https://github.com/settings/tokens
 
 3. **Prepare Environment Variables**
 
