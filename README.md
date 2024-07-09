@@ -6,7 +6,9 @@
 
 Telegram bot to create GitHub issues simply by `@mentioning`. Useful for "TDD" (Telegarm Driven Development) team styles. Comparing to [annndruha/issue-github-telegram-bot](https://github.com/annndruha/issue-github-telegram-bot) needs less github permissions and is more lightweight overall.
 
-## How to use
+<img width="600" alt="image" src="https://github.com/H1D/telegram-to-github-bot/assets/697625/2ae5fc94-f261-42dd-b6c9-37b3c35b876b">
+
+## How to
 
 You'll need to create a Telegram bot and a GitHub token.
 
