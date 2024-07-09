@@ -1,0 +1,25 @@
+{
+  "name": "Telegram to GitHub Bot",
+  "description": "A Telegram bot to create GitHub issues simply by @mentioning.",
+  "repository": "https://github.com/H1D/telegram-to-github-bot",
+  "logo": "https://github.com/H1D/telegram-to-github-bot/assets/697625/2ae5fc94-f261-42dd-b6c9-37b3c35b876b",
+  "keywords": ["telegram", "bot", "github", "issues"],
+  "env": {
+    "TELEGRAM_BOT_TOKEN": {
+      "description": "Your Telegram bot token",
+      "required": true
+    },
+    "GITHUB_TOKEN": {
+      "description": "Your GitHub personal access token",
+      "required": true
+    },
+    "GH_REPO": {
+      "description": "The repository where issues will be created",
+      "required": true
+    },
+    "ISSUE_TAGS": {
+      "description": "Comma-separated list of tags to be added to the issue",
+      "required": false
+    }
+  }
+}

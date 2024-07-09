@@ -44,9 +44,15 @@ Keep in mind – one bot instance – one repo. So if you want to create issues 
     GH_REPO=user/repo
     ```
 
-4. **Run the bot**. Here is an example:
+4. **Run the bot**. Deploy ready docker image somewhere. For example use Heroku template – [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/yourusername/telegram-to-github-bot). Local run example:
    ```sh
    docker run --env-file .env ghcr.io/h1d/telegram-to-github-bot:main
    ```
 5. **Add the bot to your group(s)**
 6. **Start creating issues!**
+
+## Deploy to Heroku
+
+You can easily deploy this bot to Heroku by clicking the button below:
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/yourusername/telegram-to-github-bot)
