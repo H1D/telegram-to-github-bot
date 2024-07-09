@@ -35,9 +35,9 @@ Keep in mind – one bot instance – one repo. So if you want to create issues 
     GH_REPO=user/repo
     ```
 
-4. **Run the bot**. Here is a local example:
+4. **Run the bot**. Here is an example:
    ```sh
-   docker run --env-file .env <image-repo>/telegram-to-github-bot:latest
+   docker run --env-file .env ghcr.io/h1d/telegram-to-github-bot:latest
    ```
 5. **Add the bot to your group(s)**
 6. **Start creating issues!**
