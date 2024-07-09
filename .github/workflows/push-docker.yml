@@ -42,4 +42,4 @@ jobs:
           file: ./Containerfile
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ghcr.io/${{ env.IMAGE_NAME }}:latest
+          tags: ghcr.io/${{ env.IMAGE_NAME }}:${{ github.ref_name }}
