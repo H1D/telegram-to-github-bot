@@ -1,4 +1,5 @@
 FROM node:lts-alpine
+LABEL org.opencontainers.image.source="https://github.com/H1D/telegram-to-github-bot"
 
 WORKDIR /app
 
